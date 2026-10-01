@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Strona osobista - portfolio, informacje o mnie, umiejętności i projekty."
+    />
+    <title>Arczi | IT & Sieci</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-container">
+        <a href="#top" class="logo">TW</a>
+        <button class="nav-toggle" aria-label="Otwórz menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" aria-label="Nawigacja główna">
+          <a href="#o-mnie">O mnie</a>
+          <a href="#uslugi">Usługi</a>
+          <a href="#umiejetnosci">Umiejętności</a>
+          <a href="#projekty">Projekty</a>
+          <a href="#kontakt">Kontakt</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Cześć, jestem</p>
+            <h1>
+              <span>Arczi</span><br />
+              IT / Network Administrator
+            </h1>
+            <p class="lead">
+              Zajmuję się administracją systemami operacyjnymi, sieciami komputerowymi,
+              routerami, konfiguracją urządzeń sieciowych oraz wsparciem technicznym w środowisku IT.
+              Uczę się też programowania, bo chcę rozumieć technologię szerzej i rozwijać się w dwóch kierunkach.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#projekty">Zobacz projekty</a>
+              <a class="btn btn-secondary" href="#kontakt">Napisz do mnie</a>
+            </div>
+            <ul class="mini-stats">
+              <li><strong data-target="4" data-suffix="">0</strong><span>lata nauki w IT</span></li>
+              <li><strong data-target="10" data-suffix="+">0</strong><span>obsługiwanych tematów</span></li>
+              <li><strong data-target="100" data-suffix="%">0</strong><span>zainteresowania technologią</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Profilowy obrazek">
+            <span class="orb orb-one" aria-hidden="true"></span>
+            <span class="orb orb-two" aria-hidden="true"></span>
+            <div class="profile-card">
+              <div class="profile-badge">Available for work</div>
+              <div class="avatar-wrap">
+                <img class="avatar" src="profile.jpg" alt="Zdjęcie profilowe Arczi" />
+              </div>
+              <div class="profile-details">
+                <h3>Arczi</h3>
+                <p>IT • Sieci • Systemy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="o-mnie" class="section about reveal">
+        <div class="container two-column">
+          <div>
+            <p class="section-tag">O mnie</p>
+            <h2>Jestem osobą, która lubi rozwiązywać problemy techniczne i budować stabilne systemy.</h2>
+          </div>
+          <div>
+            <p>
+              Aktualnie bardziej skupiam się na administracji sieciami komputerowymi,
+              systemami operacyjnymi, konfiguracji routerów oraz monitoringu i utrzymaniu
+              infrastruktury IT. Lubię pracować z urządzeniami sieciowymi, analizować
+              błędy i dbać o sprawne działanie całego środowiska.
+            </p>
+            <p>
+              Jednocześnie chcę rozwijać się również w kierunku programowania, bo wiem,
+              że dobra znajomość IT to nie tylko konfiguracja i wsparcie, ale też rozumienie
+              tego, jak działają systemy od strony technicznej i logicznej.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="uslugi" class="section services reveal">
+        <div class="container">
+          <p class="section-tag center">Usługi / Obszary</p>
+          <h2 class="section-title center">Zajmuję się technologią od strony infrastruktury i działania systemów</h2>
+          <div class="service-grid">
+            <article class="service-card reveal">
+              <div class="service-icon">🌐</div>
+              <h3>Sieci komputerowe</h3>
+              <p>Konfiguracja sieci lokalnych, podział sieci, routing, VLAN, adresacja IP, diagnostyka połączeń i rozwiązywanie problemów z komunikacją urządzeń.</p>
+            </article>
+            <article class="service-card reveal">
+              <div class="service-icon">🖧</div>
+              <h3>Routery i urządzenia sieciowe</h3>
+              <p>Konfiguracja routerów, switchy, NAT, DHCP, DNS, bezpieczeństwo sieci, testowanie łączności i poprawa stabilności infrastruktury.</p>
+            </article>
+            <article class="service-card reveal">
+              <div class="service-icon">💻</div>
+              <h3>Systemy operacyjne i administrowanie</h3>
+              <p>Instalacja, konfiguracja i utrzymanie systemów operacyjnych, użytkowników, uprawnień, aktualizacji, backupów i podstawowej administracji serwerowej.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="umiejetnosci" class="section skills reveal">
+        <div class="container">
+          <p class="section-tag center">Umiejętności</p>
+          <h2 class="section-title center">Technologie i obszary, które rozwijam</h2>
+          <div class="skills-grid">
+            <article class="skill-card reveal">
+              <h3>Sieci</h3>
+              <ul>
+                <li>TCP/IP</li>
+                <li>DHCP</li>
+                <li>DNS</li>
+                <li>VLAN / Routing</li>
+              </ul>
+            </article>
+            <article class="skill-card reveal">
+              <h3>Systemy</h3>
+              <ul>
+                <li>Windows</li>
+                <li>Linux</li>
+                <li>Administracja</li>
+                <li>Użytkownicy i grupy</li>
+              </ul>
+            </article>
+            <article class="skill-card reveal">
+              <h3>Rozwój</h3>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Samodzielne projekty</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projekty" class="section projects reveal">
+        <div class="container">
+          <p class="section-tag center">Projekty / Praktyka</p>
+          <h2 class="section-title center">Zadania, których uczę się i w których rozwijam swoje umiejętności</h2>
+          <div class="project-grid">
+            <article class="project-card reveal">
+              <div class="project-thumb gradient-one"></div>
+              <div class="project-content">
+                <h3>Konfiguracja sieci lokalnej</h3>
+                <p>Tworzenie podstawowej infrastruktury sieciowej: adresacja IP, DHCP, DNS, testowanie łączności i podział stacji roboczych.</p>
+                <a href="#kontakt">Dowiedz się więcej</a>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-thumb gradient-two"></div>
+              <div class="project-content">
+                <h3>Router i bezpieczeństwo</h3>
+                <p>Konfiguracja routera, NAT, dostęp do internetu, zabezpieczenia sieci oraz przepisywania zasad dostępu.</p>
+                <a href="#kontakt">Dowiedz się więcej</a>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-thumb gradient-three"></div>
+              <div class="project-content">
+                <h3>Systemy operacyjne</h3>
+                <p>Instalacja, konfiguracja i utrzymanie systemów operacyjnych wraz z podstawami zarządzania użytkownikami i rolami.</p>
+                <a href="#kontakt">Dowiedz się więcej</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact reveal" id="kontakt">
+        <div class="container contact-box">
+          <div>
+            <p class="section-tag">Kontakt</p>
+            <h2>Chcesz współpracować?</h2>
+            <p>
+              Jeśli masz pomysł na stronę, projekt lub potrzebujesz wsparcia w realizacji wizji,
+              napisz do mnie. Chętnie omówię szczegóły i pomogę znaleźć najlepsze rozwiązanie.
+            </p>
+          </div>
+
+          <form class="contact-form">
+            <label>
+              <span>Imię</span>
+              <input type="text" name="name" placeholder="Twoje imię" />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" placeholder="twoj@email.com" />
+            </label>
+            <label>
+              <span>Wiadomość</span>
+              <textarea name="message" rows="5" placeholder="Napisz kilka słów o projekcie..."></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Wyślij wiadomość</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Arczi. IT • Sieci • Systemy.</p>
+        <div class="socials">
+          <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:twoj@email.com">Email</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
